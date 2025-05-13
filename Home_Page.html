@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="D2_Puzzles.css">
+    <!-- Links the CSS style sheet to format and decorate the page correctly -->
+    <script type="text/javascript" src="D2_Puzzles.js"></script>
+    <!-- Links the JavaScript file containing the function used in the buttons -->
+    <Title>Destiny 2 Secret Puzzles</Title>
+    <!-- Titles the page -->
+</head>
+<body>
+	
+	<p class="top"><a name=Top></a></p>
+    
+	
+	
+	<div id="header">
+		<h1><a class="title" href="Home_Page.html">Destiny 2 Secret Puzzles</a></h1>
+		<button class="buttonLogin" id="buttonLogin" onclick="LogInOrOut()">Login With Bungie ID</button>
+	</div>
+	<!-- Creates a header at the top of the page which contains the websites title, which is a link to the home page, and a button to log in with Bungie ID -->
+	
+  
+  
+    <div id="space">
+        <div id="container">
+			<img class="puzzle" src="Images\Home_Page\Heresy.jpg" alt="Episode Heresy Puzzles">
+		</div>
+		<!-- Creates a banner for Epiosde Heresey Puzzles -->
+		
+		<div id="img_container">
+			<div id="spacing">
+				<button class="buttonPuzzle" id="Chess_Puzzle" onclick="window.location.href='Heresy__Chess_Puzzle.html';"><img class="puzzle" src="Images\Home_Page\Heresy__Chess_Puzzle.jpg" alt="Heresy Chess Puzzle"></button>
+				<button class="buttonComplete" id="Chess_Puzzle__Comp" onclick="Heresy__Chess_Puzzle__Comp()">Mark as Completed</button>
+			</div>
+			<div id="spacing">
+				<button class="buttonPuzzle" id="Barrow_Dyad" onclick="window.location.href='Heresy__Barrow_Dyad.html';"><img class="puzzle" src="Images\Home_Page\Heresy__Barrow_Dyad.jpg" alt="Heresy Barrow-Dyad"></button>
+				<button class="buttonComplete" id="Barrow_Dyad__Comp" onclick="Heresy__Barrow_Dyad__Comp()">Mark as Completed</button>
+			</div>
+			<div id="spacing">
+				<button class="buttonPuzzle" id="SD__Quest" onclick="window.location.href='Sundered_Doctrine__Quest.html';"><img class="puzzle" src="Images\Home_Page\Sundered_Doctrine__Quest.jpg" alt="Sundered Doctrine Quest" style="width:1920px;"></button>
+				<button class="buttonComplete" id="SD__Quest__Comp" onclick="Sundered_Doctrine__Quest__Comp()">Mark as Completed</button>
+			</div>
+		</div>
+		<!-- Creates buttons for each Epiosde Heresey Puzzle, as well as a button to mark each puzzle as complete underneath their correlated puzzle -->
+	</div>
+	
+	
+	
+	<div id="space">
+        <div id="container">
+			<img class="puzzle" src="Images\Home_Page\Revenant.jpg" alt="Episode Revenant Puzzles">
+		</div>
+		<!-- Creates a banner for Epiosde Revenant Puzzles -->
+		
+		<div id="img_container">
+			<div id="spacing">
+				<button class="buttonPuzzle" id="Scorn_Organ" onclick="window.location.href='Revenant__Scorn_Organ.html';"><img class="puzzle" src="Images\Home_Page\Revenant__Scorn_Organ.jpg" alt="Revenant Scorn Organ"></button>
+				<button class="buttonComplete" id="Scorn_Organ__Comp" onclick="Revenant__Scorn_Organ__Comp()">Mark as Completed</button>
+			</div>
+			<div id="spacing">
+				<button class="buttonPuzzle" id="VH__Quest" onclick="window.location.href='Vespers_Host__Quest.html';"><img class="puzzle" src="Images\Home_Page\Vespers_Host__Quest.jpg" alt="Vespers Host Quest"></button>
+				<button class="buttonComplete" id="VH__Quest__Comp" onclick="Vespers_Host__Quest__Comp()">Mark as Completed</button>
+			</div>
+		</div>
+		<!-- Creates buttons for each Epiosde Revenant puzzle, as well as a button to mark each puzzle as complete underneath their correlated puzzle -->
+	</div>
+    <!-- The div keeps the heading, paragraph, table and button in line and adds space at the top and bottom -->
+	
+    
+	
+	<button class="buttonTop" onclick="window.location.href='#Top';">Back To Top</button>
+    <!-- A button to return to the top of the page -->
+    
+    
+    
+</body>
+</html>
